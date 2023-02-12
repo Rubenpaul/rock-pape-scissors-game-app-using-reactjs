@@ -4,13 +4,16 @@ export const AppContainer = styled.div`
   background-color: #223a5f;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-family: 'Roboto';
 `
 
 export const GameContainer = styled.div`
   width: 80%;
   padding: 20px;
+  margin-bottom: 0px;
 `
 export const GameDetailsAndScoreContainer = styled.div`
   border: 2px solid #ffffff;
@@ -52,7 +55,7 @@ export const ScoreParagraphText = styled.p`
   font-size: 30px;
   margin-bottom: 0px;
   font-weight: bold;
-  font-family: 'Bree Serif';
+  font-family: 'Roboto';
 `
 
 export const Score = styled.h1`

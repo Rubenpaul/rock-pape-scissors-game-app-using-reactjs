@@ -2,6 +2,8 @@ import {Component} from 'react'
 
 import ChoiceItem from './components/ChoiceItem'
 
+import RulesPopup from './components/RulesPopup'
+
 import {
   AppContainer,
   GameContainer,
@@ -112,6 +114,7 @@ class App extends Component {
               : this.renderGamePlayingView()}
           </GameImageContainer>
         </GameContainer>
+        <RulesPopup />
       </AppContainer>
     )
   }
